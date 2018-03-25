@@ -1,0 +1,47 @@
+{
+  "name": "adonis-fullstack-app",
+  "version": "4.1.0",
+  "adonis-version": "4.1.0",
+  "description": "The fullstack application boilerplate for Adonisjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js --ignore public/",
+    "test": "node ace test"
+  },
+  "keywords": [
+    "adonisjs",
+    "adonis-app"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@adonisjs/ace": "^5.0.1",
+    "@adonisjs/auth": "^3.0.3",
+    "@adonisjs/bodyparser": "^2.0.2",
+    "@adonisjs/cors": "^1.0.5",
+    "@adonisjs/fold": "^4.0.7",
+    "@adonisjs/framework": "^5.0.5",
+    "@adonisjs/generic-exceptions": "^2.0.0",
+    "@adonisjs/ignitor": "^2.0.5",
+    "@adonisjs/lucid": "^5.0.2",
+    "@adonisjs/session": "^1.0.21",
+    "@adonisjs/shield": "^1.0.6",
+    "@adonisjs/validator": "^5.0.3",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "firebase-admin": "^5.11.0",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.17.2",
+    "request": "^2.85.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "eslint-plugin-react": "^7.7.0"
+  },
+  "autoload": {
+    "App": "./app"
+  }
+}
